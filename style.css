@@ -1,0 +1,121 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+
+body{
+	height: 100vh;
+	background-image: linear-gradient(#19e3e3, #00d6ea, #00c8ef, #00b9ef, #12a9eb);
+}
+
+
+.original button{
+	position: absolute;
+	text-align: center;
+	top: 10%;
+	left: 46%;
+	right: 46%;
+	width: 8%;
+	background-color: #eab676;
+	color: black;
+	border-radius: 10px;
+}
+.contrastSus button{
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	left: 55%;
+	right: 40%;
+	background-color: #eab676;
+	color: black;
+	border-radius: 10px;
+}
+
+.contrastJos button{
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	left: 40%;
+	right: 55%;
+	background-color: #eab676;
+	color: black;
+	border-radius: 10px;
+}
+
+.mirror button{
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	left: 47.5%;
+	right: 47.5%;
+	background-color: #eab676;
+	color: black;
+	border-radius: 10px;
+}
+
+.parent {
+	position: absolute;
+	top: 12%;
+	left:50%;
+	margin-left: -250px;
+}
+
+.pozitieCanvas{
+
+	text-align: center;
+}
+
+canvas{
+	display: inline-block;
+}
+
+.rulare{
+	top:5%;
+	position: absolute;
+	text-align: center;
+	left: 40%;
+	right: 40%;
+	width: 20%;
+}
+
+.rulare h3{
+	border-radius: 5px;
+	background-color:darkblue;
+	color:white;
+}
+
+@media (max-width: 1910px) {
+	.original button{
+		left: 46%;
+		right: 46%;
+		width: 8%;
+	}
+}
+
+@media (max-width: 1500px) {
+	.contrastSus button{
+		left: 55%;
+		right: 35%;
+	}
+	
+	.contrastJos button{
+		left: 35%;
+		right: 55%;
+	}
+	
+	.mirror button{
+		left: 45%;
+		right: 45%;
+	}
+	.original button{
+		left: 45%;
+		right: 45%;
+		width: 10%;
+	}
+	.rulare{
+		left: 30%;
+		right: 30%;
+		width: 40%;
+	}
+}
+
